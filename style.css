@@ -74,7 +74,7 @@ div {
 }
 
 div:after {
-	content: "";
+	content: "..............";
 	letter-spacing: 33px;
 	display: block;
 }
