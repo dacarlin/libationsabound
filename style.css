@@ -13,7 +13,7 @@ a {
 }
 
 html {
-	background: #f4f4f4 url('purty_wood_2x.png') center center;
+	background: #f4f4f4 url('wood_1/wood_1.png') center center;
 }
 svg path {
 	fill: #fff;
@@ -23,12 +23,20 @@ h2 {
 	text-align: center;
 	margin: 0;
 	padding: 2em 0;
-		color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.8);
 }
 
 h3 {
 	font-weight: normal;
 	margin: 2em 0 0 -1em;
+}
+
+.container > div {
+	font-size: 16px;
+	background: #f5f5f5 url('exclusive_paper/exclusive_paper.png') left top;
+	width: 33em;
+	padding: 0 8em 4em 8em;
+	margin: 8em 0 0 0;
 }
 
 img#header {
@@ -54,29 +62,21 @@ blockquote {
 
 body {
 	font-size: 16px;
-	width: 33em;
-	padding: 0 8em;
+	width: 49em;
+	padding: 0;
 	margin: 0 auto;
-	background: rgba(255,255,255,0.2);
 	position: relative;
 }
 
 img {
 	font-size: 16px;
 	width: 49em;
-	margin: 0 0 0 -8em;
+	margin:0 0 0 -8em;
 }
 
-div {
+div p, li {
 	font: normal 19px/1.5em "Cochin";
 	color: rgba(0,0,0,0.6);
-	margin: 0 0 8em 0;
-}
-
-div:after {
-	content: "..............";
-	letter-spacing: 33px;
-	display: block;
 }
 
 ul {
@@ -85,7 +85,7 @@ ul {
 	margin: 1em;
 }
 
-li {
+div ul li {
 	padding: 0;
 	margin: 0;
 	font-weight: bold;
