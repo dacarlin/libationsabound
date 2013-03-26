@@ -23,7 +23,7 @@ h2 {
 	text-align: center;
 	margin: 0;
 	padding: 2em 0;
-	color: rgba(255,255,255,0.8);
+	color: rgba(255,255,255,0.7);
 }
 
 h3 {
@@ -106,4 +106,9 @@ h4 {
 
 h4 + ul {
 	list-style: circle;
+}
+
+.amis *{
+	
+	color: rgba(255, 255, 255, 0.7);
 }
