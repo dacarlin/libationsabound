@@ -143,8 +143,11 @@ h4 + ul {
 }
 
 .nav div ul li + li:before {
-	content: "- ";
+	content: "\25C6" " ";
 	opacity: 0.5;
+	font-size: 66%;
+	position: relative;
+	top: -2px;
 }
 
 .nav div ul li a {
