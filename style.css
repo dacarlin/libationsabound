@@ -13,7 +13,7 @@ a {
 }
 
 html {
-	background: #f4f4f4 url('wood_1/wood_1.png') center center;
+	background: #444 url('dark_wood/dark_wood.png');
 }
 svg path {
 	fill: #fff;
