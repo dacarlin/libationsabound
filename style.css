@@ -15,12 +15,21 @@ html {
 	background: #444 url('dark_wood/dark_wood.png');
 }
 
-h2 {
-	text-align: center;
+h2.title {
 	background: #f5f5f5 url('exclusive_paper/exclusive_paper.png') left top;
-	margin: 0;
-	padding: 1em;
 	color: rgba(0,0,0,1);
+	margin: 0 0 -0.5em 0;
+	padding: 1em;	
+	opacity:1;
+}
+
+h2 {
+	margin: 2em 0 1em 0;
+	padding: 0;
+	color: #aaa;
+	opacity: 0.3;
+	text-shadow: -1px -1px 1px #fff;
+	text-align: center;
 	font: italic 66px/1em "Cochin";
 }
 
@@ -36,13 +45,13 @@ h3 {
 	font-size: 16px;
 	background: #f5f5f5 url('exclusive_paper/exclusive_paper.png') left top;
 	width: 33em;
-	padding: 2em 8em 4em 8em;
-	margin: 0 0 4em 0;
+	padding: 0 8em 4em 8em;
+	margin: 2em 0 4em 0;
 }
 
 img[src="bottle.svg"] {
 	padding: 0;
-	margin: 0;
+	margin: 3.5em 0 0 2.5em;
 	width: 20%;
 	float:left;
 }
@@ -51,6 +60,20 @@ img[src="bottle.svg"] {
 
 blockquote {
 	margin-top: 4em;
+	background: #f5f5f5 url('exclusive_paper/exclusive_paper.png') left top;
+	margin: 0;
+	padding: 4em;
+}
+
+blockquote.amis p, blockquote.amis cite, blockquote.amis * {
+	color:#000;
+}
+
+blockquote cite {
+	display: block;
+	font-style:normal;
+	text-align:center;
+	padding: 2em 0 0 0;
 }
 
 body {
@@ -116,6 +139,7 @@ h4 + ul {
 
 .nav h2 {
 	color: #222;
+	margin: 0;
 	font: bold 29px/1.5em "Cochin";
 	padding: 2em 0 1em 0;
 }
